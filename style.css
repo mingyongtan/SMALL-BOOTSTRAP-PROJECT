@@ -1,0 +1,400 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type = "text"]{
+    width:20vw;
+    height:4.5vh;
+    font-size: 17px;
+    background-color:rgba(48, 50, 51, 0.048);
+    border:0px;
+    border-bottom:2px solid;
+    border-image: linear-gradient(to right, #96711A,#135342 ) 1;
+    margin-bottom:3vh;
+    padding-left:0.7vw;
+    color:#0D362B;
+    transition: 0.4s;
+}
+input[type = "text"]:focus{
+    outline:none;
+    border-image: linear-gradient(to left, #96711A,#135342 ) 1;
+}
+input[type = "text"]::placeholder{
+    color:#0d362b7a;
+}
+
+input[type = "radio"]{
+    margin-bottom:3vh;
+}
+
+label{
+    color:#291e06e3;
+}
+textarea{
+    height:10vh;
+    width:20vw;
+    margin-bottom:3vh;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #96711A,#135342 ) 1;
+    background-color:rgba(48, 50, 51, 0.048);
+    border-radius:3px;
+    padding-left:0.5vw;
+    padding-top:0.3vh;
+    transition: 0.4s;
+}
+textarea::placeholder{
+    color:#291e066b; 
+}
+textarea:focus{
+    outline:none;
+    border-image: linear-gradient(to left, #96711A,#135342 ) 1;
+}
+.btn{
+    padding: 1vh 2vw 1vh 2vw;
+    margin-top:1vh;
+    font-size:15px;
+    border:1px solid;
+    border-radius:4px;
+    background-color: #0D362B;
+    border-color: #96711A;
+    color: #96711aab;
+    transition: 0.4s;
+    font-style: bold;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:  #96711aab;
+    border-color: #0D362B;
+    color: #0D362B;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #FEFEF1;    
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: block;
+    padding: 100px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #FEFCD6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+    
+  }
+
+@media only screen and (max-width: 430px) {
+  .col-lg-5 {
+    display:none
+  }
+  input[type = "text"]{
+    width: 150px;
+  }
+
+  input[type = "radio"]{
+    margin-bottom:0vh;
+   
+}
+label{
+  color:#291e06e3;
+}
+.form{
+  width: 200px;
+}
+
+.one{
+  position:absolute;
+  top: 55px;
+  left: -35px;
+}
+ .two{
+  position:absolute;
+   top: 85px;
+   left: -35px;
+ 
+ }
+
+.buritoowrap{
+  position:absolute;
+  top: 80px;
+  left: 70px;
+
+}
+
+textarea{
+  position: absolute;
+  top:125px;
+}
+ button{
+  position: absolute;
+  top:222px;
+  left:-12px;
+
+ }
+}
+
+.raindrop {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: 10s infinite anim-particle linear;
+          animation: 6s infinite anim-particle linear;
+  border-radius: 999px;
+}
+
+.raindrop--1 {
+  left: 49.6155656953%;
+  -webkit-animation-delay: -2.8724855955s;
+          animation-delay: -2.8724855955s;
+}
+
+.raindrop--2 {
+  left: 23.3254568853%;
+  -webkit-animation-delay: -0.903078193s;
+          animation-delay: -0.903078193s;
+}
+
+.raindrop--3 {
+  left: 32.8606467424%;
+  -webkit-animation-delay: -2.7264958931s;
+          animation-delay: -2.7264958931s;
+}
+
+.raindrop--4 {
+  left: 47.9236086838%;
+  -webkit-animation-delay: -0.2004305207s;
+          animation-delay: -0.2004305207s;
+}
+
+.raindrop--5 {
+  left: 31.6141865292%;
+  -webkit-animation-delay: -3.5999660624s;
+          animation-delay: -3.5999660624s;
+}
+
+.raindrop--6 {
+  left: 34.8627018279%;
+  -webkit-animation-delay: -0.1813555957s;
+          animation-delay: -0.1813555957s;
+}
+
+.raindrop--7 {
+  left: 73.8995075407%;
+  -webkit-animation-delay: -3.7567858027s;
+          animation-delay: -3.7567858027s;
+}
+
+.raindrop--8 {
+  left: 75.8425946459%;
+  -webkit-animation-delay: -1.4130324135s;
+          animation-delay: -1.4130324135s;
+}
+
+.raindrop--9 {
+  left: 60.0937815305%;
+  -webkit-animation-delay: -0.3075098302s;
+          animation-delay: -0.3075098302s;
+}
+
+.raindrop--10 {
+  left: 1.5600778787%;
+  -webkit-animation-delay: -3.6050005678s;
+          animation-delay: -3.6050005678s;
+}
+
+.raindrop--11 {
+  left: 39.6359468744%;
+  -webkit-animation-delay: -1.1172460549s;
+          animation-delay: -1.1172460549s;
+}
+
+.raindrop--12 {
+  left: 0.9775315533%;
+  -webkit-animation-delay: -0.3201628274s;
+          animation-delay: -0.3201628274s;
+}
+
+.raindrop--13 {
+  left: 63.6138920484%;
+  -webkit-animation-delay: -3.0369159116s;
+          animation-delay: -3.0369159116s;
+}
+
+.raindrop--14 {
+  left: 90.0582003861%;
+  -webkit-animation-delay: -2.5810504192s;
+          animation-delay: -2.5810504192s;
+}
+
+.raindrop--15 {
+  left: 18.6556292961%;
+  -webkit-animation-delay: -1.9239228087s;
+          animation-delay: -1.9239228087s;
+}
+
+.raindrop--16 {
+  left: 80.3299905706%;
+  -webkit-animation-delay: -0.2178424961s;
+          animation-delay: -0.2178424961s;
+}
+
+.raindrop--17 {
+  left: 58.2850717373%;
+  -webkit-animation-delay: -0.9546758786s;
+          animation-delay: -0.9546758786s;
+}
+
+.raindrop--18 {
+  left: 34.3191807014%;
+  -webkit-animation-delay: -2.9693725986s;
+          animation-delay: -2.9693725986s;
+}
+
+.raindrop--19 {
+  left: 17.1952582391%;
+  -webkit-animation-delay: -2.0415744151s;
+          animation-delay: -2.0415744151s;
+}
+
+.raindrop--20 {
+  left: 55.0537749821%;
+  -webkit-animation-delay: -1.824514157s;
+          animation-delay: -1.824514157s;
+}
+
+.raindrop--21 {
+  left: 2.9531793896%;
+  -webkit-animation-delay: -0.2067072472s;
+          animation-delay: -0.2067072472s;
+}
+
+.raindrop--22 {
+  left: 57.9042458962%;
+  -webkit-animation-delay: -0.342487866s;
+          animation-delay: -0.342487866s;
+}
+
+.raindrop--23 {
+  left: 34.8191941377%;
+  -webkit-animation-delay: -1.0098684706s;
+          animation-delay: -1.0098684706s;
+}
+
+.raindrop--24 {
+  left: 2.0744689358%;
+  -webkit-animation-delay: -2.9467721379s;
+          animation-delay: -2.9467721379s;
+}
+
+.raindrop--25 {
+  left: 88.4960453637%;
+  -webkit-animation-delay: -2.3539376548s;
+          animation-delay: -2.3539376548s;
+}
+
+.raindrop--26 {
+  left: 82.1295984723%;
+  -webkit-animation-delay: -3.1734901571s;
+          animation-delay: -3.1734901571s;
+}
+
+.raindrop--27 {
+  left: 55.0228043758%;
+  -webkit-animation-delay: -2.8454012499s;
+          animation-delay: -2.8454012499s;
+}
+
+.raindrop--28 {
+  left: 93.4074578267%;
+  -webkit-animation-delay: -2.523932861s;
+          animation-delay: -2.523932861s;
+}
+
+.raindrop--29 {
+  left: 68.8452834062%;
+  -webkit-animation-delay: -1.7082100589s;
+          animation-delay: -1.7082100589s;
+}
+
+.raindrop--30 {
+  left: 73.6699091897%;
+  -webkit-animation-delay: -0.7727435544s;
+          animation-delay: -0.7727435544s;
+}
+
+@-webkit-keyframes anim-particle {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+@keyframes anim-particle {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, calc(100vh - 0.5rem), 0);
+  }
+}
+  
+
+
+
+  
+  
